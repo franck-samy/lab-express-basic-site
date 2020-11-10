@@ -1,0 +1,48 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+nav{
+    position: fixed;
+    background-color: blue;
+    color: white;
+    display: flex;
+    width : 100vw;
+
+}
+
+ul{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+h1{
+    font-size: 36px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 100px;
+}
+
